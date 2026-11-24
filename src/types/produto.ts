@@ -4,7 +4,8 @@ export type produto = {
     descricaoCurta: string;
     descricaoLonga: string;
     precoPorKg: number;
-    ativo: boolean
+    ativo: boolean;
     imagem: string;
     categoriasIds: number[]
 }
+export type ProdutoRequest = Omit<produto,'id'>

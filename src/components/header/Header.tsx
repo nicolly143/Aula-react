@@ -28,7 +28,11 @@ function Header() {
     return (
         <header>
             <div className="container header_container">
-                <img src={logo} alt="logo bolos do Jacquin" />
+                <Link to= '/Login'>
+                <img src={logo} alt="logo bolos do Jacquin"  />
+                </Link>
+    
+               
 
                 <form className="box_busca"
                 onSubmit={ evento =>
